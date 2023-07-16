@@ -3,15 +3,17 @@
 ## Docker image
 Click image name to see more information for docker images.
 
-`Web Portal` - [ddjnw1yu/12laboursapp:latest](https://hub.docker.com/r/ddjnw1yu/12laboursapp)
+`Web Portal` - [12labours/app-dev:latest](https://hub.docker.com/r/12labours/app-dev)
 
-`Query Server` - [ddjnw1yu/12laboursapi:latest](https://hub.docker.com/r/ddjnw1yu/12laboursapi)
+`Query Server` - [12labours/api-dev:latest](https://hub.docker.com/r/12labours/api-dev)
 
-`Login System`- [ddjnw1yu/12laboursnodejsapi:latest](https://hub.docker.com/r/ddjnw1yu/12laboursnodejsapi)
+`Login System`- [12labours/nodejsapi-dev:latest](https://hub.docker.com/r/12labours/nodejsapi-dev)
 
 `pgAdmin4` - [dpage/pgadmin4](https://hub.docker.com/r/dpage/pgadmin4)
 
-`PostgresDB` - [ddjnw1yu/12labourspostgres:latest](https://hub.docker.com/r/ddjnw1yu/12labourspostgres)
+`PostgresDB` - [12labours/postgres-dev:latest](https://hub.docker.com/r/12labours/postgres-dev)
+
+You can also create your own docker image by forking 12 labours portal related repositories. To find out related repositories, please check [Auckland Bioengineering Institute Software](https://github.com/ABI-Software) GitHub.
 
 ## Environment variables
 Create a *`.env`* file, copy and paste with following environment variables.
